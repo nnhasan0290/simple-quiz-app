@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  text-transform: capitalize;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: grey;
+}
+.question {
+  margin-bottom: 10px;
+}
+.option {
+  margin: 5px 0;
+}
+
+li > label {
+  margin-left: 5px;
+}
+.quiz-container {
+  display: flex;
+  background-color: #fff;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+input[type="submit"] {
+  text-transform: capitalize;
+  padding: 2px;
+  margin-top: 30px;
+}
